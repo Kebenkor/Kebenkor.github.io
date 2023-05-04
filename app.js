@@ -8,7 +8,7 @@ tg.MainButton.color = "#2cab37";
 let item = "";
 
 // Получаем ссылки на кнопки и добавляем их в массив
-for (let i = 1; i <= buttonCount; i++) {
+for (let i = 0; i <= buttonCount; i++) {
     const btn = document.getElementById(`btn${i}`);
     buttons.push(btn);
 }
